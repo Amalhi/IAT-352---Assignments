@@ -5,11 +5,11 @@
 <?php require("includes/main_menu_bar.php"); ?>
 
 <div id="content-container">
-    <h1 class="main-header">Companies</h1>
+    <h1 class="main-header">Members</h1>
 
     <div class="toggle-switch" id="hs-members-toggle">
-        <!-- <div class="sort-label">SORT BY </div> -->
-        <a class="toggle-switch-left" href="members.php">
+        <!-- Choose how to sort the data -->
+        <a class="toggle-switch-left " href="members.php">
             Members</a><a class="toggle-switch-right active" href="company.php">
             Company</a>
     </div>
@@ -78,6 +78,7 @@
             }
         ?>
     </table>
+</div>
 </div>
 
 <?php require("includes/footer.php"); ?>
