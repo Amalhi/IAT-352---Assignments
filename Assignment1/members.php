@@ -16,7 +16,7 @@
     </div>
 
     <div id="members-table" class="container">
-
+<!--Code below made with the use of tutorials and examples -->
         <?php
             // compare two names using the "human order" algrorithm
             function compare_name($a, $b) {

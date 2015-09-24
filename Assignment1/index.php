@@ -14,13 +14,6 @@
           <a  class="button-members-page" id="sign-up-button" href="members.php">
               See the Registerd Users
           </a>
-
-
   </div>
-
 </div>
-
-
-
-
 <?php require("includes/footer.php"); ?>

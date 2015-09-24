@@ -6,7 +6,7 @@
 <?php require("includes/main_menu_bar.php"); ?>
 
 <div id="content-container">
-
+<!--Code below made with the use of tutorials and examples -->
     <?php
         if (is_numeric($_GET['id'])) {
 

@@ -1,5 +1,5 @@
 <!--IAT 352 - Assignment 1 - Amrit Malhi -->
-<!-- HTML header, title, body tags, etc --> 
+<!-- HTML header, title, body tags, etc -->
 <?php require("includes/header.php"); ?>
 
 <!-- Main menu bar for all pages -->
@@ -8,7 +8,7 @@
 <div id="content-container">
 
     <!-- Sign up form -->
-    <form name="input" action="html_form_action.asp" method="get" class="sign-up-log-in-form container">
+    <form name="input" action="" method="get" class="sign-up-log-in-form container">
 
         <h1 class="center-text">Log in</h1>
 
