@@ -1,4 +1,4 @@
-<!-- HTML header, title, body tags, etc -->
+<!-- HTML header, title, body tags, etc --> 
 <?php require("includes/header.php"); ?>
 
 <!-- Main menu bar for all pages -->
@@ -17,7 +17,7 @@
 
         <input class="form-button button-grey" type="submit" value="Submit">
         <p>Don't have an account? <a href="sign_up.php">Sign up</a></p>
-    </form> 
+    </form>
 </div>
 
 <?php require("includes/footer.php"); ?>
