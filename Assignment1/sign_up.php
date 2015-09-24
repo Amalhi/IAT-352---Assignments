@@ -9,12 +9,12 @@
         <h1 class="center-text">Would you like to:</h1>
         <!-- sign up for industry -->
 <div class="choose">
-        <a  class="button-grey2" id="sign-up-button" href="sign_up_student.php">
+        <a  class="button-member-student" id="sign-up-button" href="signupstudent.php">
             Sign up as COOP Student
         </a>
 
         <!-- sign up for industry -->
-        <a  class="button-grey2" id="sign-up-button" href="sign_up_company.php">
+        <a  class="button-member-company" id="sign-up-button" href="signupcompany.php">
           Sign up as Industry Member
         </a>
 </div>

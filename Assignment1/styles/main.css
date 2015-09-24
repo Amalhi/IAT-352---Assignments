@@ -7,7 +7,7 @@
 
 #main-menu-bar-container {
   width: 100%;
-  background-color: #2578a1;
+  background-color: rgba(45, 185, 255, 0.81);
   border-bottom: 1px solid #081e58;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
@@ -17,7 +17,7 @@
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2578a1;
+  /*background-color: rgba(45, 185, 255, 0.81);*/
   padding: 10px;
   color: #fff;
   text-align: center;
@@ -174,8 +174,99 @@
 .choose{
 margin-left:auto;
 margin-right:auto;
-
 }
+.button-submit {
+  display: inline-block;
+  width: 100%;
+  padding: 25px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  border: 1px solid #0e1686;
+  background-color: #0e1686;
+  color: white;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.button-member-student {
+  display: inline-block;
+  width: 100%;
+  padding: 25px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  border: 1px solid #0e8625;
+  background-color: #5ff47b;
+  color: white;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.button-member-company {
+  display: inline-block;
+  width: 100%;
+  padding: 25px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  border: 1px solid #e64622;
+  background-color: #f4765a;
+  color: white;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.button-members-page {
+  display: inline-block;
+  width: 50%;
+  padding: 25px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  border: 1px solid #22e6da;
+  background-color: rgba(34, 230, 218, 0.66);
+  color: white;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.button-members-page:hover {
+  display: inline-block;
+  width: 50%;
+  padding: 25px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  border: 1px solid #22e6da;
+  background-color: rgba(34, 230, 218, 0.20);
+  color: white;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
+
 .button-grey:hover {
   background-color: #7b7a70;
   cursor: pointer;
@@ -281,8 +372,8 @@ margin-right:auto;
   box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 .toggle-switch .active:hover, .toggle-switch .active:active, .toggle-switch .active:visited {
-  background-color: #d4d4d4;
-  color: #999999;
+  background-color: #164E86;
+  color: #fff;
   cursor: default;
 }
 @media screen and (min-width: 286px) {
@@ -459,6 +550,7 @@ body, input, textarea, button {
 
 a {
   color: #69ABED;
+  text-decoration: none;
 }
 a:hover {
   color: #1a78d6;
@@ -487,6 +579,22 @@ a:hover {
     padding: 25px;
   }
 }
+#content-container-welcome{
+text-align: center;
+color: white;
+margin-top: -23px !important;
+}
+#content-container-welcome  {
+/*background-color: rgb(169, 249, 0);*/
+width: 100%;
+height: 1267px;
+background-image: url("../img/header.jpg");
+}
+#content-container-welcome h1{
+padding-top: 150px;
+text-align: center;
+}
+
 
 .container {
   background-color: #FFF;
@@ -537,6 +645,7 @@ a:hover {
   color: #333333;
   text-decoration: none;
   border: 1px solid #ddd;
+  background-color: navajowhite;
   margin: 0 0 10px 0;
   padding: 5px;
   -webkit-transition: background-color 0.2s;
@@ -611,7 +720,7 @@ a:hover {
   border: 1px solid #ddd;
   padding: 5px;
   font-size: 1em;
-  width: 200px;
+  width: 50%;
 }
 .sign-up-log-in-form .form-button {
   width: 200px;
@@ -687,11 +796,12 @@ a:hover {
 
 #footer-container {
   *zoom: 1;
-  max-width: 68em;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 10px 0;
+    background-color: rgba(45, 185, 255, 0.81);
 }
 #footer-container:before, #footer-container:after {
   content: " ";
@@ -705,6 +815,7 @@ a:hover {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+
 }
 #footer-container .footer-p:last-child {
   margin-right: 0;

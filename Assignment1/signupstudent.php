@@ -8,7 +8,7 @@
 <div id="content-container">
 
     <!-- Sign up form -->
-    <form name="input" action="sign_up_submit.php" method="post" class="sign-up-log-in-form container">
+    <form name="input" action="signupsubmit.php" method="post" class="sign-up-log-in-form container">
 
         <h1 class="center-text">SIAT COOP Member Sign up</h1>
 
@@ -27,7 +27,7 @@
 
         <textarea class="form-textarea" name="bio" placeholder="Bio"></textarea>
 
-        <input class="form-button button-grey" type="submit"  name="submit" value="Submit">
+        <input class="form-button button-submit" type="submit"  name="submit" value="Submit">
 
     </form>
 </div>

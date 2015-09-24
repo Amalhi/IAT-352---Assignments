@@ -9,8 +9,8 @@
 
     <div class="toggle-switch" id="hs-members-toggle">
         <!-- <div class="sort-label">SORT BY </div> -->
-        <a class="toggle-switch-left" href="index.php">
-            Name</a><a class="toggle-switch-right active" href="company.php">
+        <a class="toggle-switch-left" href="members.php">
+            Members</a><a class="toggle-switch-right active" href="company.php">
             Company</a>
     </div>
 
