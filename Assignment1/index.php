@@ -51,7 +51,7 @@
                             <img src=\"img/user_icon.png\" alt=\"Placeholder user photo\" class=\"user-profile-picture\">
                             <div class=\"user-info-container\">
                                 <div class=\"user-name\">".$user[1]."</div>
-                                <div class=\"user-high-school\">".$user[5]."</div>
+                                <div class=\"user-company\">".$user[5]."</div>
                             </div>
                         </a>";
                 }

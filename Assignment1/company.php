@@ -14,7 +14,7 @@
             Company</a>
     </div>
 
-    <div id="high-school-list" class="container">
+    <div id="company-list" class="container">
 
         <?php
             // compare two names using the "human order" algrorithm
