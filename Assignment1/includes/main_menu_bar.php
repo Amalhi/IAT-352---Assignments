@@ -1,3 +1,4 @@
+<!--IAT 352 - Assignment 1 - Amrit Malhi -->
 <!-- START Main menu bar for all pages -->
 <div id="main-menu-bar-container">
     <div id="main-menu-bar">

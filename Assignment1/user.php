@@ -1,3 +1,4 @@
+<!--IAT 352 - Assignment 1 - Amrit Malhi -->
 <!-- HTML header, title, body tags, etc -->
 <?php require("includes/header.php"); ?>
 
@@ -41,7 +42,7 @@
 
             echo "<div id=\"user-info-box\" class=\"container\">
                     <div id=\"user-main-profile-picture\">
-                        <img src=\"img/profile_pic.jpg\" alt=\"".$userName."'s Profile Picture\">
+                        <img src=\"img/user_icon.png\" alt=\"".$userName."'s Profile Picture\">
                     </div>
                     <div id=\"user-info-content\">";
 
@@ -49,7 +50,7 @@
             echo "<div><a href=\"mailto:".$userEmail."?Subject=Hello%20again\" target=\"_top\">".$userEmail."</a></div>";
             echo "<p>Works at ".$userProgram." as ".$userConcentration.".</p>";
             echo "<p>".$userBio."</p>";
-          
+
         }
 
         else {

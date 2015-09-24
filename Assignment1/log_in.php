@@ -1,3 +1,4 @@
+<!--IAT 352 - Assignment 1 - Amrit Malhi -->
 <!-- HTML header, title, body tags, etc --> 
 <?php require("includes/header.php"); ?>
 

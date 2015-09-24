@@ -1,3 +1,4 @@
+<!--IAT 352 - Assignment 1 - Amrit Malhi -->
     <div id="footer-container">
         <p class="footer-p">IAT 352 Assignment 1 - Amrit Malhi.</p>
     </div>

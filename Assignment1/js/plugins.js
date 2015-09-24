@@ -1,4 +1,5 @@
-// Avoid `console` errors in browsers that lack a console. 
+//<!--IAT 352 - Assignment 1 - Amrit Malhi -->
+// Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
     var noop = function () {};
@@ -25,7 +26,7 @@
 /* <![CDATA[ */
 $(function() {
     var input = document.createElement("input");
-    if(('placeholder' in input)==false) { 
+    if(('placeholder' in input)==false) {
         $('[placeholder]').focus(function() {
             var i = $(this);
             if(i.val() == i.attr('placeholder')) {
@@ -33,10 +34,10 @@ $(function() {
                 if(i.hasClass('password')) {
                     i.removeClass('password');
                     this.type='password';
-                }           
+                }
             }
         }).blur(function() {
-            var i = $(this);    
+            var i = $(this);
             if(i.val() == '' || i.val() == i.attr('placeholder')) {
                 if(this.type=='password') {
                     i.addClass('password');
